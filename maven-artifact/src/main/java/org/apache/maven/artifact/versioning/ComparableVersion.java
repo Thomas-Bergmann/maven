@@ -317,6 +317,8 @@ public class ComparableVersion implements Comparable<ComparableVersion> {
             ALIASES.put("final", "");
             ALIASES.put("release", "");
             ALIASES.put("cr", "rc");
+            ALIASES.put("ea", "rc");
+            ALIASES.put("preview", "rc");
         }
 
         /**

@@ -151,6 +151,8 @@ public class ComparableVersionTest {
         checkVersionsEqual("1release", "1");
         checkVersionsEqual("1final", "1");
         checkVersionsEqual("1cr", "1rc");
+        checkVersionsEqual("1preview", "1rc");
+        checkVersionsEqual("1ea", "1rc");
 
         // special "aliases" a, b and m for alpha, beta and milestone
         checkVersionsEqual("1a1", "1-alpha-1");
